@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import from react-router-dom
+import { useNavigate } from "react-router-dom";
 import { BackgroundGradient } from "../../components/ui/background-gradient";
 import { BackgroundLines } from "../../components/ui/background-lines";
 import { HoverEffect } from "../../components/ui/card-hover-effect";
 import { TextGenerateEffect } from "../../components/ui/text-generate-effect";
 import LoadingCircle from "../../components/LoadingCircle/LoadingCircle";
 import { useAuth } from "../../services/userContext";
-import { Button } from "../../components/ui/button";
 
 const projects = [
   {
