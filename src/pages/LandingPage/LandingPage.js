@@ -115,15 +115,17 @@ function LandingPage() {
             </p>
           </div>
           {/* Feature 3 */}
-          <div className="bg-white hover:bg-orange-50 cursor-pointer shadow-lg rounded-lg p-6 text-center">
-            <Earth className="text-blue-500 text-4xl sm:text-5xl mb-4 mx-auto" />
-            <h3 className="text-xl sm:text-2xl font-semibold mb-2">
-              AnimalPedia
-            </h3>
-            <p className="text-gray-600">
-              Learn about different animals, their habitats, and more.
-            </p>
-          </div>
+          <Link to="/AnimalPedia">
+            <div className="bg-white hover:bg-orange-50 cursor-pointer shadow-lg rounded-lg p-6 text-center">
+              <Earth className="text-blue-500 text-4xl sm:text-5xl mb-4 mx-auto" />
+              <h3 className="text-xl sm:text-2xl font-semibold mb-2">
+                AnimalPedia
+              </h3>
+              <p className="text-gray-600">
+                Learn about different animals, their habitats, and more.
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
 

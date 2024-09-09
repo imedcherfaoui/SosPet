@@ -101,7 +101,7 @@ function AnimalPedia() {
           <h1 className="relative z-10 text-5xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-orange-300 to-orange-700 text-center font-sans font-bold">
             AnimalPedia
           </h1>
-          <p className="text-orange-700 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
+          <p className="text-orange-500 max-w-lg mx-auto mt-3 mb-5 text-sm text-center relative z-10">
             A place to learn about animals and their habitats.
             <br />
             Search for an animal to learn more about it.

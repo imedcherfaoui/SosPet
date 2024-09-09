@@ -76,7 +76,7 @@ function App() {
         {
           label: "AnimalPedia",
           url: "/AnimalPedia",
-          access: ["user"],
+          access: ["guest", "user"],
           icon: <Earth />,
         },
         {
