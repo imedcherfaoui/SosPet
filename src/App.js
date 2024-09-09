@@ -118,7 +118,7 @@ function App() {
         <Route path="/EmergencyContacts" element={<EmergencyContacts />} />
         <Route
           path="/AnimalPedia"
-          element={!currentUser ? <Navigate to="/" /> : <AnimalPedia />}
+          element={<AnimalPedia />}
         />
         <Route
           path="/login"
