@@ -1,7 +1,6 @@
+import { useState } from "react";
 import { cn } from "../../utils/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import {Link} from "react-router-dom";
-import { useState } from "react";
 
 export const HoverEffect = ({ items, className, onItemSelect }) => {
   let [hoveredIndex, setHoveredIndex] = useState(null);
