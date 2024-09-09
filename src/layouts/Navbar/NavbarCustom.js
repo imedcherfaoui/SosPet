@@ -25,7 +25,7 @@ export default function NavbarCostum({ navItems }) {
         <div
           className={cn(
             navigationOpen ? "navigation active" : "navigation",
-            "bg-gradient-to-b from-orange-300 to-orange-700 border border-l-8 border-transparent"
+            "bg-gradient-to-b from-orange-300/30 to-orange-700 pl-2"
           )}
         >
           <div className="logo my-4 py-2" onClick={handleLogoClick}>
@@ -47,7 +47,7 @@ export default function NavbarCostum({ navItems }) {
               );
 
               return (
-                <li key={index} className="my-2">
+                <li key={index} className="my-2 pl-2">
                   <Link
                     to={item.url}
                     onClick={() => {
@@ -71,7 +71,7 @@ export default function NavbarCostum({ navItems }) {
         </div>
       ) : (
         <div
-          className="logo-container cursor-pointer flex items-center bg-gradient-to-b from-orange-300 to-orange-700 border border-l-8 border-transparent"
+          className="logo-container cursor-pointer flex items-center bg-gradient-to-b from-orange-300/30 to-orange-700/30 pl-2"
           onClick={handleLogoClick}
         >
           <img src={logo} alt="logo de l'entreprise" height={60} width={60} />

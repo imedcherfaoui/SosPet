@@ -189,7 +189,7 @@ function EmergencyContacts() {
           }}
           className="relative flex flex-col gap-4 items-center justify-center px-4"
         >
-          <div className="text-3xl md:text-7xl font-bold text-white text-center">
+          <div className="text-3xl md:text-7xl font-bold text-white text-center mt-10">
             Emergency Contacts
           </div>
           <div className="font-extralight md:text-4xl text-neutral-200 py-4 px-4">
