@@ -16,7 +16,7 @@ export const TextGenerateEffect = ({
       filter: filter ? "blur(0px)" : "none",
       transition: { delay: i * 0.08, duration: duration },
     }));
-  }, [words, filter, duration]);
+  }, [words, filter, duration, controls]);
 
   const renderParagraphs = () => {
     return paragraphs.map((paragraph, pIdx) => (
