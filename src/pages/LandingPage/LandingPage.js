@@ -37,7 +37,7 @@ function LandingPage() {
             left: 0,
             width: "100%",
             height: "100%",
-            background: "rgba(128, 47, 0, 0.6)",
+            background: "rgba(35, 34, 34, 0.3)",
             zIndex: 1,
           }}
         />
@@ -61,7 +61,7 @@ function LandingPage() {
             {!currentUser && (
               <Link to="/signup">
                 <Button
-                  className="bg-orange-500 text-white rounded-md hover:bg-orange-600 transition duration-300 gap-2"
+                  className="bg-orange-700 text-white rounded-md hover:bg-orange-900 transition duration-300 gap-2"
                   size="lg"
                 >
                   <UserPlus size={15} />
@@ -70,7 +70,7 @@ function LandingPage() {
               </Link>
             )}
             <Link to="/AnimalPedia">
-              <button className="inline-flex h-14 animate-shimmer items-center justify-center rounded-[22px] border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-12 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+              <button className="inline-flex h-14 animate-shimmer items-center justify-center rounded-[22px] border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-12 font-medium text-white/80 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                 <Search className="inline-block mr-2" size={15} />
                 AnimalPedia
               </button>
@@ -87,41 +87,43 @@ function LandingPage() {
 
       {/* Features Section */}
       <div className="flex flex-col items-center py-16 px-4">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8">
+        <h2 className="text-3xl sm:text-4xl font-bold text-slate-950 mb-8">
           Our Services
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
           {/* Feature 1 */}
           <Link to="/EmergencyContacts">
             <div
-              className="bg-white hover:bg-orange-50
+              className="bg-slate-800 hover:bg-slate-700
              shadow-lg rounded-lg p-6 text-center"
             >
               <HeartPulse className="text-orange-500 text-4xl sm:text-5xl mb-4 mx-auto" />
-              <h3 className="text-xl sm:text-2xl font-semibold mb-2">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-white">
                 Emergency Contacts
               </h3>
-              <p className="text-gray-600">
+              <p className="text-slate-400">
                 Find emergency vet clinics and pet care services near you, 24/7.
               </p>
             </div>
           </Link>
           {/* Feature 2 */}
-          <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <div className="bg-slate-800 shadow-lg rounded-lg p-6 text-center">
             <PawPrint className="text-green-500 text-4xl sm:text-5xl mb-4 mx-auto" />
-            <h3 className="text-xl sm:text-2xl font-semibold mb-2">Pet Care</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-white">
+              Pet Care
+            </h3>
+            <p className="text-slate-400">
               Access resources and tips for keeping your pet healthy and happy.
             </p>
           </div>
           {/* Feature 3 */}
           <Link to="/AnimalPedia">
-            <div className="bg-white hover:bg-orange-50 cursor-pointer shadow-lg rounded-lg p-6 text-center">
+            <div className="bg-slate-800 hover:bg-slate-700 cursor-pointer shadow-lg rounded-lg p-6 text-center">
               <Earth className="text-blue-500 text-4xl sm:text-5xl mb-4 mx-auto" />
-              <h3 className="text-xl sm:text-2xl font-semibold mb-2">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-white">
                 AnimalPedia
               </h3>
-              <p className="text-gray-600">
+              <p className="text-slate-400">
                 Learn about different animals, their habitats, and more.
               </p>
             </div>
@@ -130,11 +132,11 @@ function LandingPage() {
       </div>
 
       {/* Contact Section */}
-      <div className="bg-gray-200 py-16 px-4 text-center">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+      <div className="bg-slate-800 py-16 px-4 text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
           Ready to Help Your Pet
         </h2>
-        <p className="text-base sm:text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
+        <p className="text-base sm:text-lg text-slate-400 mb-6 max-w-3xl mx-auto">
           Join our community and get immediate access to emergency services, pet
           care tips, and more.
         </p>
@@ -150,7 +152,7 @@ function LandingPage() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4 text-center">
+      <footer className="bg-slate-800 text-white py-4 text-center">
         <p className="text-sm">&copy; 2024 SOSPET. All rights reserved.</p>
         <div className="flex justify-center gap-4 mt-2 flex-wrap">
           <a
@@ -178,7 +180,7 @@ function LandingPage() {
             <Phone className="text-xl" />
           </a>
           <a
-            href="mailto:sos-pet@mail.com"
+            href="mailto:imadeddine300@hotmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition duration-300"
@@ -186,7 +188,7 @@ function LandingPage() {
             <Mail className="text-xl" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/imedoari.jpg/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition duration-300"

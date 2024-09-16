@@ -13,9 +13,9 @@ function ContactUs() {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">
       {/* Hero Section */}
-      <div className="bg-orange-200 flex flex-col justify-center items-center text-center py-20 px-4">
-        <h1 className="text-6xl font-bold text-gray-800 mb-4">Get in Touch</h1>
-        <p className="text-xl text-gray-700 mb-6">
+      <div className="bg-slate-950/90 flex flex-col justify-center items-center text-center py-20 px-4">
+        <h1 className="text-6xl font-bold text-white mb-4">Get in Touch</h1>
+        <p className="text-xl text-slate-400 mb-6">
           We're here to help with your pet's needs. Reach out to us for any
           questions or concerns.
         </p>
@@ -102,7 +102,7 @@ function ContactUs() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4 text-center">
+      <footer className="bg-slate-800 text-white py-4 text-center">
         <p className="text-sm">&copy; 2024 SOSPET. All rights reserved.</p>
         <div className="flex justify-center gap-4 mt-2">
           <a
@@ -123,14 +123,14 @@ function ContactUs() {
             <Phone className="text-white text-xl hover:text-gray-400 transition duration-300" />
           </a>
           <a
-            href="mailto:sos-pet@mail.com"
+            href="mailto:imadeddine300@hotmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Mail className="text-white text-xl hover:text-gray-400 transition duration-300" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/imedoari.jpg/"
             target="_blank"
             rel="noopener noreferrer"
           >

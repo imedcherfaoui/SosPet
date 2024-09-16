@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileDetails = ({ email, birthday, onBirthdayChange }) => {
   return (
-    <div className="w-full">
+    <div className="flex flex-col gap-3 w-full">
       <div className="p-6 bg-orange-50 rounded-md shadow-md">
         <label className="text-2xl font-semibold text-gray-700">Email:</label>
         <p className="text-gray-600">{email}</p>

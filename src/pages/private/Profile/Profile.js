@@ -251,7 +251,7 @@ const Profile = () => {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-gradient-to-r from-orange-700 to-yellow-600 px-4 pt-12 pb-8 md:px-6 lg:px-8">
+    <div className="flex flex-col justify-center items-center min-h-screen bg-gradient-to-b from-slate-950 to-slate-800 px-4 pt-12 pb-8 md:px-6 lg:px-8">
       <div className="bg-white/80 w-full max-w-6xl p-8 rounded-lg shadow-lg relative">
         <Title className="text-4xl font-bold text-gray-800 mb-6 text-center">
           {userData.userName}'s Profile
